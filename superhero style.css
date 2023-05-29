@@ -13,7 +13,7 @@
     justify-content: center;
 } */
 #bdy{
-    background-image: url("picture/background.png");
+    background-image: url("background.png");
     background-position: center;
     background-size: cover;
     color: white;
