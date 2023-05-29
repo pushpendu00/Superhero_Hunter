@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero hunter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <img src="picture/marvel logo.png" id="marvel-logo">
+
+        <div id="input">
+            <input type="text" placeholder="Search any marvel character....." id="search-box">
+        </div>
+            <!-- FAVOURITE BUTTON -->
+            <i class="fa fa-sharp fa-regular fa-heart fa-xl" class="s-f" id="favourite" onclick="favouriteList()"></i>
+    </header>
+    <br>
+    <div id="favourite-list">
+        <div id="cross">
+            <img src="picture/cross.png" id="cross-img" onclick="favouriteList()">
+        </div>
+        <div id="fev-char-head">
+            <h1>Favourite character</h1>
+        </div>
+        <div id="favourite-char">
+            <!-- DISPLAY Favourite Character list -->
+
+        </div>
+        
+    </div>
+
+    <main id="main">
+        <section id="video-container">
+            <video id="fullscreen" src="picture/back-video.mp4" playsinline autoplay muted loop>
+            </video>
+        </section>
+        <div id="content">
+            <!-- <div class="Superhero" id="">
+                <img src="picture/marveldisney.png">
+                <div>
+                    <h3>Name</h3>
+                </div>
+                <button class="add-button">Add To Favourite</button>
+            </div> -->
+        </div>
+    </main>
+
+
+    <!-- <script type="module" src="./super.js"></script> -->
+    <script src="script.js"></script>
+</body>
+</html>

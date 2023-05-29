@@ -1,0 +1,11 @@
+{
+  "name": "superherohunter",
+  "version": "1.0.0",
+  "description": "Superhero hunter",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pushpendu Jana",
+  "license": "ISC"
+}

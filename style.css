@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(40, 40, 40);
+}
+
+body::-webkit-scrollbar,#favourite-list::-webkit-scrollbar,#video-container::-webkit-scrollbar{
+    display: none;
+}
+
+/* Main Heading */
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(80, 80, 80);
+}
+
+/* marvel logo */
+#marvel-logo{           
+   width: 15%;
+   max-width: 8%;
+   min-width: 70px;
+}
+
+#input{
+    height: 30px;
+    width: 65%;   
+}
+
+#input input{
+    height: 100%;
+    width:  100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+#favourite{
+    /* background-color: white; */
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+    cursor: pointer;
+}
+
+#main{
+    width: 100%;
+}
+
+#fullscreen {
+    z-index: 0;
+    object-fit: cover;
+    width:100%;
+    height:90.5vh;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Superhero{
+    margin: 5px;
+    height: 250px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: ; */
+    justify-content: space-between;
+    background-color: rgb(80, 80, 80);
+}
+.Superhero img{
+    height: 70%;
+    width: 100%;
+}
+
+.Superhero div h4{
+    color: white;
+    cursor: pointer;
+}
+
+.Superhero div h4 span:hover{
+    border-bottom:2px solid white ;
+}
+
+.add-button,.remove-button{
+    height: 15%;
+    background-color: rgb(54, 195, 101);
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+#favourite-list{
+    top:0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    display: none;
+    color: white;
+    position: fixed;
+    background-color: rgb(90, 90, 90);
+    border-bottom: 3px solid white;
+    overflow-x: scroll;
+    /* transform: translate(100%,0) 2s; */                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+}
+#fev-char-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:700px){
+    #favourite-list{
+        height: 100vh;
+        width: 100%;
+        /* padding: 10px; */
+    }
+}
+@media only screen and (min-width:701px){
+    #favourite-list{
+        height: 100vh;
+        width: 40%;
+    }
+}
+#cross{
+    height: 30px;
+    width: 30px;
+    /* background-color: aqua; */
+    /* background-color: brown;
+    color: aliceblue; */
+}
+#cross img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* favourite character */
+#favourite-char{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+}
+
+a:hover{
+    border-bottom: 2px solid white;
+}
